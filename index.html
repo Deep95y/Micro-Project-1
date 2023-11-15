@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+  </head>
+<body>
+<div id ="majdiv">
+  <div id = "leftdiv">
+    <h2 id = "text"> An inspiring design delivered to your inbox every morning</h2>
+   <p id = "script"> Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox
+    </p> 
+    <p id = "thank">Thank you!</p> 
+    <div id = "email_form">
+<b id = "vslook">Show me how it looks</b> <br><br><br> 
+
+<form id = "element"> 
+    <label for = "email"></label>
+    <input type = "email" placeholder = "Your e-mail address" id = "email" name = "email">
+     &nbsp
+    <input type="submit" value = "Register Now" id = "submit" name="submit">
+</form> </div>
+<p id = "par">Free-No spam-No datasharing</p> </div>
+<script>
+ document.getElementById("submit").onclick = function() 
+    {
+    document.getElementById("par").style.textAlign = "left"; 
+    document.getElementById("thank").style.display = "block";
+    document.getElementById("email_form").remove(); 
+    }
+</script>
+<div id = "right_div">
+  <img src = "images\dweep-io.png" id ="img1"> 
+</div>
+</div> 
+<footer>
+<div id = "mindiv">
+  <div id = "divleft"> 
+  <ul type = none >
+    <li class = "firstlist">Prompt generator</li> 
+    <li class = "seclist">Dweep daily</li>
+    <li class = "thirdlist">All Contributor</li>
+    <li class = "fourthlist">Your data on dweep.io</li>
+    <li class ="fifthlist" > Contribute to dweep</li>
+    </ul>
+    </div>
+    <div id = "divright"> 
+      <ul type = none >
+        <li class = "listfirst">Dweep.io</li>
+        <li class =  "listsec">Made with love in india</li>
+        <li class = "listfourth"><img src = "images\LinkedinLogo.png" id = img2>
+        <img src = "images\InstagramLogo.png" id = img3></li>
+        <br>
+        <li class = "listthird">hello@dweep.io</li>
+
+      </ul> 
+    </div>
+    </div>
+  </footer>
+
+
+  </ul>
+</div>
+
+</body> 

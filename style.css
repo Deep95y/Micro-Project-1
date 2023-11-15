@@ -1,0 +1,228 @@
+<style>
+#img1 {
+width: 575px;
+height: 575px; 
+top: 20px;
+left: 818px;
+padding: 66.4px, 89.61px, 66.15px, 91.87px;
+margin-right: 15px;
+padding-bottom:1px;
+} 
+#email { 
+    background-color: white;
+    color:black;
+    width: 344px;
+    height: 64px;
+    top: 411px;
+    left: 136px;
+    border-radius: 8px;
+    border: 4px solid #000000;
+
+}
+#submit {
+    background-color: black;
+    color: white;
+    height:75px ;
+    width: 180px; 
+    border-radius: 10px;
+}
+
+#majdiv{
+    background-color: #ffcd9e;
+    display:flex;
+    width: 1440px;
+    height: 592px;
+}
+
+#leftdiv {
+    flex: 50%;
+}
+
+#rightdiv {
+    flex: 50%;
+}
+#text {
+    width: 562px;
+    height: 108px;
+    top: 83px;
+    left: 136px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+#script { 
+    width: 495px;
+    height: 81px;
+    top: 219px;
+    left: 136px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #484848;
+    padding-left: 90px;
+    padding-top: 1px;
+}
+#vslook{
+    width: 227px;
+    height: 81px;
+    top: 315px;
+    left: 136px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #282828;
+    padding-left: 90px;
+}
+
+#element {
+   padding-left: 90px; 
+}
+#par {
+    width: 344px;
+    height: 61px;
+    top: 479px;
+    left: 134px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 90px;
+}
+#mindiv {
+    width: 1440px;
+    height: 298px;
+    top: 592px;
+    background-color:#282828;
+    display: flex;
+}
+#divright {
+    flex: 50%;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left:30%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+#divleft 
+{
+    flex: 50%;
+    color: #FFFFFF;
+    padding-left: 8.5%;
+    padding-top: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#img2 {
+    width: 29.41px;
+    height: 27.42px; 
+
+}
+
+#img3 {
+    width: 29.41px; 
+    height: 27.42px;
+    
+}
+
+ .firstlist {
+    width: 216px;
+    height: 36px;
+    top: 654px;
+    left: 191px;
+    
+}
+.seclist {
+    width: 216px;
+    height: 36px;
+    top: 690px;
+    left: 191px;
+    
+}
+
+.thirdlist {
+    width: 216px;
+    height: 36px;
+    top: 726px;
+    left: 191px;
+}
+.fourthlist {
+    width: 220px;
+    height: 36px;
+    top: 762px;
+    left: 191px;
+}
+
+.fifthlist {
+    width: 236px;
+    height: 36px;
+    top: 798px;
+    left: 191px;
+}
+
+.listfirst {
+    width: 236px;
+    height: 36px;
+    }
+.listsec {
+    width: 232px;
+    height: 36px;
+      
+}
+.listthird {
+    width: 232px;
+    height: 36px;
+    
+}
+.listfourth {
+    
+    width: 232px;
+    height: 36px;
+}
+
+#thank {
+    width: 226px;
+    height: 62px;
+    top: 328px;
+    left: 136px;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#282828;
+    display: none;
+    padding-left: 90px;
+
+}
+
+#email_form {
+    padding-top: 40px ;
+}
+
+</style> 
